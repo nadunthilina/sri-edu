@@ -9,3 +9,25 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
+$green:#44bb6a;
+$black:#263238;
+$white:#fff;
+$light-color:#777;
+$yellow:#ff0;
+$light-bg:#f6f6f6;
+$border:.1rem solid #999;
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap:2rem;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar{
+    width: 1rem;
+  }

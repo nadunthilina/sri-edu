@@ -30,6 +30,7 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #000;
 }
+
 body {
   padding-left: 30rem;
 }

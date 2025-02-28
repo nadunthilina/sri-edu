@@ -31,3 +31,34 @@ html{
   &::-webkit-scrollbar{
     width: 1rem;
   }
+  &::-webkit-scrollbar-track{
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    background: $green;
+  }
+}
+
+body{
+  padding-left: 30rem;
+}
+
+section{
+  padding:3rem 5%;
+
+  &:nth-child(even){
+    background: $light-bg;
+  }
+}
+
+.heading{
+  text-align: center;
+  margin-bottom: 3rem;
+
+  span{
+    font-size: 2rem;
+    color:$green;
+    text-transform: uppercase;
+  }
+
